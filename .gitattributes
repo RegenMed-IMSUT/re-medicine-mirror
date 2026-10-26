@@ -1,0 +1,5 @@
+# Preserve mirrored site asset bytes; do not normalize legacy line endings.
+docs/** -text
+*.py text eol=lf
+README.md text eol=lf
+.gitignore text eol=lf

@@ -1,0 +1,14 @@
+# Python / local tooling caches; site assets under docs/application/files/cache are required.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+.cache/
+.DS_Store
+Thumbs.db
+# Local browser captures, server logs, and disposable validation workspaces.
+_upload_metadata/tmp*/
+_upload_metadata/browser*/
+_upload_metadata/*.log
